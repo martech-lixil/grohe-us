@@ -1,0 +1,268 @@
+
+
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="en-US">
+<!--<![endif]-->
+<head>
+    <!-- PROD-CD1 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, minimum-scale=1">
+
+            <meta name="ps-key" content="3094-5cf5600170a1c00012d8b717" />
+            <meta name="ps-country" content="US" />
+            <meta name="ps-language" content="en" />
+<link href="https://do5nkkzntcenb.cloudfront.net/Themes/Sites/Lixil/GroheUS/Grohe-Theme/styles/grohe-head-optimized-min.css?t=20250320T031510Z" rel="stylesheet" /><script src="https://do5nkkzntcenb.cloudfront.net/Themes/Sites/Lixil/GroheUS/Grohe-Theme/scripts/grohe-head-optimized-min.js?t=20250320T031503Z"></script>
+
+    
+<meta name="VIcurrentDateTime" content="638943365446275583" />
+<script type="text/javascript" src="/layouts/system/VisitorIdentification.js"></script>
+
+    <script>dataLayer = [];</script>
+    <script type="text/javascript">
+		function productImgError(image,removeOnErrorEvent=true) {
+            if (removeOnErrorEvent) {
+                image.onerror = "";
+            }
+            image.src = "https://do5nkkzntcenb.cloudfront.net/Project/Sites/Lixil/shared/Image Coming Soon/grohe-coming-soon.jpg"
+			return true;
+		}
+    </script>
+    
+<script type="text/javascript" src="//cdn.pricespider.com/1/3094/ps-utid.js" async></script>
+<script src="https://cdn.optimizely.com/js/18743582994.js"></script> 
+    <script src="https://kit.fontawesome.com/45da494d99.js" crossorigin="anonymous"></script>
+</head>
+<body 
+      class="buy-the-look-body default-device bodyclass">
+    
+    
+<!-- #wrapper -->
+<div id="wrapper">
+    <!-- #header -->
+    <header>
+        <div id="header" class="container-fluid">
+            <div class="row">
+                
+            </div>
+        </div>
+    </header>
+    <!-- /#header -->
+    <!-- #content -->
+    <main>
+        <div id="content" class="container">
+            <div class="row">
+                
+            </div>
+        </div>
+    </main>
+    <!-- /#content -->
+    <!-- #footer -->
+    <footer>
+        <div id="footer" class="container">
+            <div class="row">
+                
+            </div>
+        </div>
+    </footer>
+    <!-- /#footer -->
+</div>
+<!-- /#wrapper -->
+
+    
+
+<!-- Product Compare Popup Starts -->
+<div id="productCompare" class="modal fade modal-product-compare" role="dialog">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close"
+                        data-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <div class="product-compare__header">
+                    <h3>Compare Products</h3>
+                </div>
+                <div id="productCompareWrapper" class="product-compare__data-wrapper">
+                    <div class="product-card__container">
+                        <!-- ko template: {name: 'card-item', data: products } -->
+                        <!-- /ko -->
+                        <div class="product-card__label-wrapper hidden-xs hidden-sm hidden-md">
+                            <div class="product-card__label">
+                                <span>Products</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="product-attributes__container">
+                        <!-- ko template: {afterRender: postRender } -->
+                        <!-- ko template: {name: 'attr-row', foreach: attributes } -->
+                        <!-- /ko -->
+                        <!-- /ko -->
+                    </div>
+                </div>
+                <div class="spinner-wrapper">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/html" id="card-item">
+    <div class="product-card__row product-compare__slider js-compare-slider" data-bind="foreach: $data">
+        <div class="product-card__item">
+            <div class="product-card__header">
+                <button class="product-card__remove-cta js-remove-product" data-bind="attr: {id:'removeCta-' + alteredProductId(ProductId), 'data-product-id':alteredProductId(ProductId), 'data-vid':Mfg_Product_Number_SAP}"></button>
+            </div>
+            <div class="product-card__image">
+                <a data-bind="attr:{href: Link}">
+                    <img data-bind="attr:{src: SummaryImageUrl, title: Material_Description_Marketing}"
+                         alt="product image" loading="lazy"  onerror="productImgError(this)">
+                </a>
+            </div>
+            <div class="product-card__info">
+                <div class="product-card__title">
+                    <span data-bind="text: Product_Family_SAP"></span>
+                </div>
+                <div class="product-card__model">
+                    <span>Model</span>
+                    <span data-bind="text: Mfg_Product_Number_SAP"></span>
+                </div>
+                <p class="product-card__description" data-bind="attr:{title: Material_Description_Marketing}, text: Material_Description_Marketing_Text"></p>
+                <!-- ko ifnot: IsCommerceDisabled -->
+                <p class="product-card__stock">
+                    <strong data-bind="text: StockAvailabilityHeader"></strong><br>
+                    <span class="stock-status Out-of-Stock">
+                        <span data-bind="text: StockAvailabilityText"></span>
+                    </span>
+                </p>
+                <!-- /ko -->
+            </div>
+            </div>
+        </div>
+    </script>
+    <script type="text/html" id="attr-row">
+        <div class="product-attribute__row" data-bind="css: {'group-1': AttributeGroup == 'Group1', 'group-2': AttributeGroup == 'Group2'}">
+            <div class="product-attribute__label">
+                <span data-bind="text: AttributeName"></span>
+            </div>
+            <div class="product-attribute__value-collection js-attribute-slider">
+                <!-- ko if: $data.isSwatchList -->
+                <!-- ko foreach: AttributeSwatches -->
+                <div class="product-attribute__value-item">
+                    <ul class="variant-swatch" data-bind="foreach: $data.SwatchList">
+                        <li>
+                            <span>
+                                <img data-bind="attr:{src: $data.SwatchImage}" loading="lazy">
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /ko -->
+                <!-- /ko -->
+                <!-- ko if: $data.isReviews  -->
+                <!-- ko foreach: AttributeReviews -->
+                <div class="product-attribute__value-item">
+                    <div data-bind="attr:{'data-bv-product-id': ProductId,'data-bv-show':'inline_rating'}" data-bv-seo="false"></div>
+                </div>
+                <!-- /ko -->
+                <!-- /ko -->
+                <!-- ko if: $data.isPrice -->
+                <!-- ko foreach: AttributePrice -->
+                <div class="product-attribute__value-item">
+                    <!-- ko ifnot: $data.Hide -->
+                    <span data-bind="text: $data.Value"></span>
+                    <!-- /ko -->
+                </div>
+                <!-- /ko -->
+                <!-- /ko -->
+                <!-- ko ifnot: $data.isSwatchList || $data.isReviews || $data.isPrice -->
+                <!-- ko foreach: AttributeValues -->
+                <div class="product-attribute__value-item">
+                    <span data-bind="text: $data"></span>
+                </div>
+                <!-- /ko -->
+                <!-- /ko -->
+            </div>
+    </div>
+</script>
+<!-- Product Compare Popup Ends -->
+<!-- Product Compare Sticky Footer Starts -->
+<div class="product-compare-section" id="product-compare-wrapper">
+    <div class="product-compare-top-section">
+        <div class="container">
+            <div class="row">
+                <div class="min-max-wrap" data-maxtext="Maximize" data-mintext="Minimize">
+                    <p>Minimize</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="product-compare-bottom-section">
+        <div class="container">
+            <div class="row">
+                <div class="component">
+                    <div class="product-compare-wrapper">
+                        <div class="compare-message">
+                            <p>You have added a Product! Add Up to 3 Products to Compare.</p>
+                        </div>
+                        <div class="different-category-wrapper">
+                            <p>Error: you have items selected from a different category.</p>
+                            <p>Please check the compare button to remove the current items</p>
+                        </div>
+                        <div class="compare-product-list-section" id="compare-product-list">
+                            <div class="compare-product-list" data-bind="foreach: selectedProd">
+                                <div class="compare-product-item">
+                                    <span class="icon-close2" data-bind="click: $parent.removeproduct"></span>
+                                    <div class="compare-product-item-image">
+                                        <img data-bind="attr:{src: img}" loading="lazy" onerror="productImgError(this)">
+                                    </div>
+                                    <div class="compare-product-item-data">
+                                        <p class="compare-product-item-data__title" data-bind="text: title"></p>
+                                        <p class="compare-product-item-data__description" data-bind="text: description"></p>
+                                        <p class="compare-product-item-data__model" data-bind="text: model"></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="compare-product-blank">
+                                <p>Select an additional product to compare</p>
+                            </div>
+                            <div class="compare-product-blank">
+                            </div>
+                            <div class="sticky-compare-buttons">
+                                <a href="javascript:;" data-toggle="modal" data-target="#productCompare" class="sticky-buttons compareBtn">Compare All</a>
+                                <a href="javascript:;" class="sticky-buttons clearBtn">Clear</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Product Compare Sticky Footer Ends -->        <script src="https://do5nkkzntcenb.cloudfront.net/Themes/Sites/Lixil/GroheUS/Grohe-Theme/scripts/grohe-body-optimized-min.js?t=20250320T031506Z"></script>    <!-- /#wrapper -->
+<script>(function(){ var s = document.createElement('script'), e = ! document.body ? document.querySelector('head') : document.body; s.src = 'https://acsbapp.com/apps/app/dist/js/app.js'; s.setAttribute('defer', ''); s.async = true; s.onload = function(){ acsbJS.init({ statementLink : '', footerHtml : '', hideMobile : false, hideTrigger : false, language : 'en', position : 'left', leadColor : '#146ff8', triggerColor : '#146ff8', triggerRadius : '50%', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerIcon : 'people', triggerSize : 'medium', triggerOffsetX : 20, triggerOffsetY : 20, mobile : { triggerSize : 'small', triggerPositionX : 'left', triggerPositionY : 'bottom', triggerOffsetX : 10, triggerOffsetY : 10, triggerRadius : '50%' } }); }; e.appendChild(s);}());</script>
+
+<script>
+window.addEventListener('load', (event) => {
+injectJS("https://cdn.optimizely.com/js/18798001499.js", false, function() {
+console.log('Optimizely is loaded');
+});
+});
+</script>    
+                <script type="text/javascript">
+                    window.addEventListener('load', (event) => {
+                        injectJS("https://apps.bazaarvoice.com/deployments/grohe-us/main_site/production/en_US/bv.js", false, function () {
+                            console.log('bazaarvoice is loaded');
+                        });
+                    });
+                </script>
+            <script src="https://www.youtube.com/iframe_api" defer></script>
+    <div class="navigation-overlay"></div>
+
+</body>
+</html>
+
+
